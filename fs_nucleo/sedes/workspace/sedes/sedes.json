@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"yxTiDIdTN7\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Sedes</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"yxTiDIdTN7\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Sedes</span>\",\"col\":12}},{\"id\":\"HdD6Yjge5w\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"lJHiU6rV-X\",\"type\":\"card\",\"data\":{\"card_name\":\"Sedes\",\"col\":4}}]",
  "creation": "2023-11-29 22:20:55.726111",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,8 +12,37 @@
  "indicator_color": "green",
  "is_hidden": 0,
  "label": "Sedes",
- "links": [],
- "modified": "2023-11-29 23:48:58.664353",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sedes",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Estadios",
+   "link_count": 0,
+   "link_to": "Estadio",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Campos",
+   "link_count": 0,
+   "link_to": "Estadio",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-11-30 00:23:36.121928",
  "modified_by": "ivan@interconectando.com",
  "module": "Sedes",
  "name": "Sedes",

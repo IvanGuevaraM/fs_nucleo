@@ -222,8 +222,12 @@ app_license = "unlicense"
 
 # Fixtures
 fixtures = [
-    # "Equipos",
+    "Partido",
+    "Torneo",
+    "Equipo",
     "Estadio",
+    # "Campo",
+    "Liga",
     "Liga tipo",
     "Autoridad",
     "Continentes"
