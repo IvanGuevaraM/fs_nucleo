@@ -222,7 +222,9 @@ app_license = "unlicense"
 
 # Fixtures
 fixtures = [
-    "Continentes",
     # "Equipos",
-    "Liga tipo"
+    "Estadio",
+    "Liga tipo",
+    "Autoridad",
+    "Continentes"
 ]
