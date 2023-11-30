@@ -1,0 +1,37 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Continentes",
+  "modified": "2023-11-29 22:33:18.439894",
+  "name": "Europa",
+  "nombre": "Europa"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Continentes",
+  "modified": "2023-11-29 22:33:52.298872",
+  "name": "Asia",
+  "nombre": "Asia"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Continentes",
+  "modified": "2023-11-29 22:34:21.302447",
+  "name": "Africa",
+  "nombre": "Africa"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Continentes",
+  "modified": "2023-11-29 22:34:37.245723",
+  "name": "América",
+  "nombre": "América"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Continentes",
+  "modified": "2023-11-29 22:34:46.553186",
+  "name": "Oceanía",
+  "nombre": "Oceanía"
+ }
+]
