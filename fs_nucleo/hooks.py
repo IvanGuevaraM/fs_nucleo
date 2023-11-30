@@ -219,3 +219,10 @@ app_license = "unlicense"
 # auth_hooks = [
 #	"fs_nucleo.auth.validate"
 # ]
+
+# Fixtures
+fixtures = [
+    "Continentes",
+    # "Equipos",
+    "Liga Tipo"
+]
