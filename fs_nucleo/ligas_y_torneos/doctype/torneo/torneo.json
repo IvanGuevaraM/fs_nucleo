@@ -1,0 +1,137 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-30 00:41:14.502367",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "nombre",
+  "nombre_corto",
+  "anio",
+  "column_break_tghb",
+  "liga",
+  "tipo_de_liga",
+  "autoridad",
+  "section_break_wcmg",
+  "sitio_oficial",
+  "fechas_tab",
+  "fechas_section",
+  "primer_partido",
+  "column_break_heeg",
+  "final",
+  "partidos_tab",
+  "grupos_tab"
+ ],
+ "fields": [
+  {
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "label": "Nombre"
+  },
+  {
+   "fieldname": "nombre_corto",
+   "fieldtype": "Data",
+   "label": "Nombre corto"
+  },
+  {
+   "fieldname": "anio",
+   "fieldtype": "Int",
+   "label": "Anio"
+  },
+  {
+   "fieldname": "column_break_tghb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "liga",
+   "fieldtype": "Link",
+   "label": "Liga",
+   "options": "Liga"
+  },
+  {
+   "fetch_from": "liga.tipo_de_liga",
+   "fieldname": "tipo_de_liga",
+   "fieldtype": "Link",
+   "label": "Tipo de liga",
+   "options": "Liga tipo",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "liga.autoridad",
+   "fieldname": "autoridad",
+   "fieldtype": "Link",
+   "label": "Autoridad",
+   "options": "Autoridad",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_wcmg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sitio_oficial",
+   "fieldtype": "Data",
+   "label": "Sitio Oficial",
+   "options": "URL"
+  },
+  {
+   "fieldname": "fechas_tab",
+   "fieldtype": "Tab Break",
+   "label": "Fechas"
+  },
+  {
+   "fieldname": "fechas_section",
+   "fieldtype": "Section Break",
+   "label": "Fechas"
+  },
+  {
+   "fieldname": "primer_partido",
+   "fieldtype": "Datetime",
+   "label": "Primer partido"
+  },
+  {
+   "fieldname": "column_break_heeg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "final",
+   "fieldtype": "Datetime",
+   "label": "Final"
+  },
+  {
+   "fieldname": "partidos_tab",
+   "fieldtype": "Tab Break",
+   "label": "Partidos"
+  },
+  {
+   "fieldname": "grupos_tab",
+   "fieldtype": "Tab Break",
+   "label": "Grupos"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-22 12:17:48.647831",
+ "modified_by": "Administrator",
+ "module": "Ligas y Torneos",
+ "name": "Torneo",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

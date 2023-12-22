@@ -1,1 +1,17 @@
-[]
+[
+ {
+  "anio": 2026,
+  "autoridad": null,
+  "docstatus": 0,
+  "doctype": "Torneo",
+  "final": null,
+  "liga": null,
+  "modified": "2023-12-02 15:47:20.390692",
+  "name": "d1825b3df9",
+  "nombre": "COPA MUNDIAL DE LA FIFA 26™",
+  "nombre_corto": "Copa Munidal 2026",
+  "primer_partido": null,
+  "sitio_oficial": null,
+  "tipo_de_liga": null
+ }
+]

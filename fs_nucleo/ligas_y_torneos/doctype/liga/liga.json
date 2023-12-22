@@ -1,0 +1,103 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:nombre",
+ "creation": "2023-11-30 01:18:25.540856",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "engine": "InnoDB",
+ "field_order": [
+  "nombre",
+  "tipo_de_liga",
+  "division",
+  "column_break_bfbj",
+  "autoridad",
+  "alcance",
+  "pais",
+  "section_break_smyo",
+  "sitio_web"
+ ],
+ "fields": [
+  {
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "label": "Nombre",
+   "unique": 1
+  },
+  {
+   "fieldname": "tipo_de_liga",
+   "fieldtype": "Link",
+   "label": "Tipo de Liga",
+   "options": "Liga tipo"
+  },
+  {
+   "fieldname": "division",
+   "fieldtype": "Select",
+   "label": "Division",
+   "options": "\nPrimera\nSegunda\nTercera\nSub-20\nSub-19\nSub-18\nSub-17\nAmateur"
+  },
+  {
+   "fieldname": "column_break_bfbj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "autoridad",
+   "fieldtype": "Link",
+   "label": "Autoridad",
+   "options": "Autoridad"
+  },
+  {
+   "fieldname": "alcance",
+   "fieldtype": "Select",
+   "label": "Alcance",
+   "options": "\nNacional\nLocal\nInternacional\nRegional\nContinental"
+  },
+  {
+   "fieldname": "pais",
+   "fieldtype": "Link",
+   "label": "Pais",
+   "options": "Country"
+  },
+  {
+   "fieldname": "section_break_smyo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sitio_web",
+   "fieldtype": "Data",
+   "label": "Sitio Web",
+   "options": "URL"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-22 12:18:00.731074",
+ "modified_by": "Administrator",
+ "module": "Ligas y Torneos",
+ "name": "Liga",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "restrict_to_domain": "Ligas y Torneos",
+ "search_fields": "autoridad",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "nombre",
+ "track_changes": 1,
+ "translated_doctype": 1
+}

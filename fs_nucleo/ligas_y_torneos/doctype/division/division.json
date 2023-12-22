@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:nombre",
+ "creation": "2023-12-01 14:37:21.306884",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "nombre",
+  "pais",
+  "column_break_fqnm",
+  "liga",
+  "tipo_de_liga"
+ ],
+ "fields": [
+  {
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "label": "Nombre",
+   "unique": 1
+  },
+  {
+   "fieldname": "pais",
+   "fieldtype": "Link",
+   "label": "Pais",
+   "options": "Country"
+  },
+  {
+   "fieldname": "column_break_fqnm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "liga",
+   "fieldtype": "Link",
+   "label": "Liga",
+   "options": "Liga"
+  },
+  {
+   "fieldname": "tipo_de_liga",
+   "fieldtype": "Link",
+   "label": "Tipo de Liga",
+   "options": "Liga tipo"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-22 12:17:18.613365",
+ "modified_by": "Administrator",
+ "module": "Ligas y Torneos",
+ "name": "Division",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "restrict_to_domain": "FS Nucleo",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,209 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-30 00:48:57.711593",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "partido",
+  "fecha",
+  "tipo_de_partido",
+  "torneo",
+  "liga",
+  "column_break_ykok",
+  "estadio",
+  "campo",
+  "equipos_section",
+  "equipo_local",
+  "column_break_ijaz",
+  "equipo_visitante",
+  "alineaci\u00f3n_tab",
+  "alineacion_inicial_section",
+  "jugadores_l",
+  "column_break_fwce",
+  "jugadores_v",
+  "cambios_section",
+  "cambios_l",
+  "column_break_cspu",
+  "cambios_v",
+  "arbitraje_tab",
+  "noticias_tab",
+  "estadisticas_tab",
+  "difusion_tab",
+  "apuestas_tab",
+  "historicos_tab"
+ ],
+ "fields": [
+  {
+   "fieldname": "partido",
+   "fieldtype": "Date",
+   "label": "Partido"
+  },
+  {
+   "fieldname": "fecha",
+   "fieldtype": "Datetime",
+   "label": "Fecha"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "bold": 1,
+   "fieldname": "tipo_de_partido",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Tipo de partido",
+   "options": "\nAmistoso\nClasificaci\u00f3n\nTorneo, Temporada regular\nTorneo, Liguilla\nOctavos\nCuartos\nSemi-final\nFinal",
+   "reqd": 1,
+   "translatable": 1
+  },
+  {
+   "fieldname": "torneo",
+   "fieldtype": "Link",
+   "label": "Torneo",
+   "options": "Torneo"
+  },
+  {
+   "fetch_from": ".",
+   "fieldname": "liga",
+   "fieldtype": "Read Only",
+   "label": "Liga"
+  },
+  {
+   "fieldname": "column_break_ykok",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "estadio",
+   "fieldtype": "Link",
+   "label": "Estadio",
+   "options": "Estadio"
+  },
+  {
+   "fieldname": "campo",
+   "fieldtype": "Data",
+   "label": "Campo"
+  },
+  {
+   "fieldname": "equipos_section",
+   "fieldtype": "Section Break",
+   "label": "Equipos"
+  },
+  {
+   "fieldname": "equipo_local",
+   "fieldtype": "Link",
+   "label": "Equipo Local",
+   "options": "Equipo"
+  },
+  {
+   "fieldname": "column_break_ijaz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "equipo_visitante",
+   "fieldtype": "Link",
+   "label": "Equipo Visitante",
+   "options": "Equipo"
+  },
+  {
+   "fieldname": "alineaci\u00f3n_tab",
+   "fieldtype": "Tab Break",
+   "label": "Alineaci\u00f3n"
+  },
+  {
+   "fieldname": "alineacion_inicial_section",
+   "fieldtype": "Section Break",
+   "label": "Alineacion inicial"
+  },
+  {
+   "fieldname": "jugadores_l",
+   "fieldtype": "Data",
+   "label": "Jugadores L"
+  },
+  {
+   "fieldname": "column_break_fwce",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "jugadores_v",
+   "fieldtype": "Data",
+   "label": "Jugadores V"
+  },
+  {
+   "fieldname": "cambios_section",
+   "fieldtype": "Section Break",
+   "label": "Cambios"
+  },
+  {
+   "fieldname": "cambios_l",
+   "fieldtype": "Data",
+   "label": "Cambios L"
+  },
+  {
+   "fieldname": "column_break_cspu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cambios_v",
+   "fieldtype": "Data",
+   "label": "Cambios V"
+  },
+  {
+   "fieldname": "arbitraje_tab",
+   "fieldtype": "Tab Break",
+   "label": "Arbitraje"
+  },
+  {
+   "fieldname": "noticias_tab",
+   "fieldtype": "Tab Break",
+   "label": "Noticias"
+  },
+  {
+   "fieldname": "estadisticas_tab",
+   "fieldtype": "Tab Break",
+   "label": "Estadisticas"
+  },
+  {
+   "fieldname": "difusion_tab",
+   "fieldtype": "Tab Break",
+   "label": "Difusion"
+  },
+  {
+   "fieldname": "apuestas_tab",
+   "fieldtype": "Tab Break",
+   "label": "Apuestas"
+  },
+  {
+   "fieldname": "historicos_tab",
+   "fieldtype": "Tab Break",
+   "label": "Historicos"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-22 12:18:13.852736",
+ "modified_by": "Administrator",
+ "module": "Ligas y Torneos",
+ "name": "Partido",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

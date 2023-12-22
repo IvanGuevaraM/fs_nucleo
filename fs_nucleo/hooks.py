@@ -230,5 +230,5 @@ fixtures = [
     "Liga",
     "Liga tipo",
     "Autoridad",
-    "Continentes"
+    "Continente"
 ]
